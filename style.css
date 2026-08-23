@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#intro{
+    height: 100vh;
+    line-height: 75px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #fff, #fff, #fff, #5656ee);
+    font-size: 1.6em;
+}
+#intro>h1{
+    padding-left: 30px;
+}
+.offenf{
+    font-family: Nunito;
+    font-weight: 800;
+}
+.enf{
+    font-family: Fredoka;
+    font-weight: 650;
+    color: #5656ee;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+}
+#maint{
+    padding: 40px;
+    line-height: 25px;
+    background-image: linear-gradient( to bottom , #5656ee , #fff);
+}
+#maint > h2{
+    line-height: 50px;
+
+}
