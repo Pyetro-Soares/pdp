@@ -5,6 +5,13 @@
     margin: 0px;
     font-family: sans-serif;
 }
+:root{
+    --cor01: #9dc19d;
+    --cor02: #b5cea4;
+    --cor03: #71443f;
+    --cor04: #8c7c62;
+    --corpin: #5656ee;
+}
 #intro{
     height: 100vh;
     line-height: 75px;
@@ -15,6 +22,7 @@
     font-size: 1.6em;
 }
 #intro>h1{
+    padding-right: 18px;
     padding-left: 30px;
 }
 .offenf{
@@ -24,16 +32,68 @@
 .enf{
     font-family: Fredoka;
     font-weight: 650;
-    color: #5656ee;
+    color: var(--corpin);
     text-decoration-style: wavy;
     text-decoration-line: underline;
 }
+main{
+    background-color: var(--corpin);
+    text-align: justify;
+    background-color: #b7b7e9;
+}
 #maint{
-    padding: 40px;
     line-height: 25px;
-    background-image: linear-gradient( to bottom , #5656ee , #fff);
 }
 #maint > h2{
     line-height: 50px;
-
+}
+#manint{
+    line-height: 25px;
+}
+#manint > h2{
+    line-height: 50px;
+    margin-top: 20px;
+}
+h2{
+    padding: 20px;
+    font-family: Nunito;
+    font-size: 1.7em;
+    background-color: #9dc19d;
+}
+#maint > p, #manint > p{
+    padding: 30px;
+    font-family: Nunito;
+    padding-bottom: 0px;
+    width: 600px;
+}
+aside{
+    background-color: #0000ff6c;
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+aside > p{
+    flex: auto;
+}
+#fin{
+    align-self: flex-start;
+    padding: 10px;
+}
+#term{
+    padding: 10px;
+    align-self: flex-end;
+    text-align: end;
+    border-right: 1px solid #000;
+}
+.hidden{
+    filter: blur(10px);
+    transition: all 1s;
+    opacity: 0;
+}
+.show{
+    filter: blur(0px);
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
 }
