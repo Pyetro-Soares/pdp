@@ -8,8 +8,6 @@
 :root{
     --cor01: #9dc19d;
     --cor02: #b5cea4;
-    --cor03: #71443f;
-    --cor04: #8c7c62;
     --corpin: #5656ee;
 }
 #intro{
@@ -64,7 +62,8 @@ h2{
     padding: 30px;
     font-family: Nunito;
     padding-bottom: 0px;
-    width: 600px;
+    min-width: 200px;
+    max-width: 600px;
 }
 aside{
     background-color: #0000ff6c;
@@ -88,12 +87,111 @@ aside > p{
 }
 .hidden{
     filter: blur(10px);
-    transition: all 1s;
+    transition: all 0.8s;
     opacity: 0;
 }
 .show{
     filter: blur(0px);
     opacity: 1;
+    transition: all 0.8s;
+}
+.escond{
+    filter: blur(10px);
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.mostr{
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.8s;
     transform: translateX(0);
-    transition: all 1s;
+}
+#imag{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+#cl1{
+    background-image: url(ark/23292123068394630.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    width: 200px;
+    height: 126px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+#dicamp{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 206px;
+    height: 132px;
+    border: 3px solid #8308D2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #8508d294;
+}
+#dicamp2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 206px;
+    height: 132px;
+    border: 3px solid #0E0E0E;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #0e0e0e94;
+}
+#cl2{
+    background-image: url(ark/Tarjeta.jpg);
+    background-size: contain;
+    width: 200px;
+    height: 126px;
+    border-radius: 10px;
+}
+#dicamp3{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 206px;
+    height: 132px;
+    border: 3px solid #FBD906;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #FBD90694;
+}
+#cl3{
+    width: 200px;
+    height: 126px;
+    background-image: url(ark/Will\ Bank\ novo\ cartão\ de\ crédito\ busca\ inovação\ e\ benefícios\ para\ usuários.jpg);
+    background-size: contain;
+    border-radius: 10px;
+}
+#dicamp4{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 206px;
+    height: 132px;
+    border: 3px solid #A41815;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px #A4181594;
+}
+#cl4{
+    border-radius: 10px;
+    width: 200px;
+    height: 126px;
+    background-image: url(ark/ASTRID\ MAGALY\ GONZALEZ.jpg);
+    background-size: contain;
 }
