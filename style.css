@@ -62,7 +62,7 @@ h2{
     padding: 30px;
     font-family: Nunito;
     padding-bottom: 0px;
-    min-width: 200px;
+    min-width: 100px;
     max-width: 600px;
 }
 aside{
@@ -194,4 +194,56 @@ aside > p{
     height: 126px;
     background-image: url(ark/ASTRID\ MAGALY\ GONZALEZ.jpg);
     background-size: contain;
+}
+@media screen and (min-width: 680px) {
+    #cl1{
+        background-image: url(ark/23292123068394630rot.jpg);
+        width: 126px;
+        height: 200px;
+    }
+    #dicamp{
+        width: 129px;
+        height: 203px;
+        margin: 10px;
+    }
+    #cl2{
+        background-image: url(ark/Tarjetarot.jpg);
+        width: 126px;
+        height: 200px;
+        animation-delay: 0.3s;
+    }
+    #dicamp2{
+        width: 129px;
+        height: 203px;
+        margin: 10px;
+    }
+    #cl3{
+        background-image: url(ark/Will\ Bank\ novo\ cartão\ de\ crédito\ busca\ inovação\ e\ benefícios\ para\ usuáriosrot.jpg);
+        width: 126px;
+        height: 200px;
+        animation-delay: 0.6s;
+    }
+    #dicamp3{
+        width: 129px;
+        height: 203px;
+        margin: 10px;
+    }
+    #cl4{
+        background-image: url(ark/ASTRID\ MAGALY\ GONZALEZrot.jpg);
+        width: 126px;
+        height: 200px;
+        animation-delay: 0.9s;
+    }
+    #dicamp4{
+        transform: translateY(2px);
+        width: 129px;
+        height: 203px;
+        margin: 10px;
+    }
+    #imag{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
