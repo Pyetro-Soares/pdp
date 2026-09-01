@@ -11,17 +11,17 @@
     --corpin: #5656ee;
 }
 #intro{
-    height: 100vh;
+    height: 130vh;
     line-height: 75px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     background-image: linear-gradient(to bottom, #fff, #fff, #fff, #5656ee);
     font-size: 1.6em;
 }
 #intro>h1{
     padding-right: 18px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .offenf{
     font-family: Nunito;
