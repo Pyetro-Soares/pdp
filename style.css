@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+    background-color: #f8d2b4;
 }
 :root{
     --cor01: #9dc19d;
@@ -16,10 +17,11 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    background-image: linear-gradient(to bottom, #fff, #fff, #fff, #5656ee);
+    background-image: linear-gradient(to bottom, #fff, #fff, #fff, #e72121);
     font-size: 1.6em;
 }
 #intro>h1{
+    background-color: #0e0e0e00;
     padding-right: 18px;
     padding-left: 20px;
 }
@@ -30,14 +32,14 @@
 .enf{
     font-family: Fredoka;
     font-weight: 650;
-    color: var(--corpin);
+    color: #590000;
     text-decoration-style: wavy;
     text-decoration-line: underline;
 }
 main{
     background-color: var(--corpin);
     text-align: justify;
-    background-color: #b7b7e9;
+    background-color: #f8d2b4;
 }
 #maint{
     line-height: 25px;
@@ -56,7 +58,7 @@ h2{
     padding: 20px;
     font-family: Nunito;
     font-size: 1.7em;
-    background-color: #9dc19d;
+    background-color: #e9785b;
 }
 #maint > p, #manint > p{
     padding: 30px;
@@ -66,13 +68,16 @@ h2{
     max-width: 600px;
 }
 aside{
-    background-color: #0000ff6c;
+    margin-top: 40px;
+    background-color: #fc1406;
     padding: 30px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
 aside > p{
+    color: #fa3c32;
+    background-color: #fc1406;
     flex: auto;
 }
 #fin{
@@ -83,7 +88,7 @@ aside > p{
     padding: 10px;
     align-self: flex-end;
     text-align: end;
-    border-right: 1px solid #000;
+    border-right: 1px solid #fa3c32;
 }
 .hidden{
     filter: blur(10px);
