@@ -3,7 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: serif;
+    font-family: sans-serif;
     background-color: var(--cor01);
 }
 :root{
@@ -21,8 +21,8 @@ header{
     background-size: cover;
 }
 header>h1{
-    padding: 10px;
-    backdrop-filter: blur(15px);
+    padding: 3px;
+    backdrop-filter: blur(10px);
     border: 1px solid var(--preto);
     border-radius: 20px;
     background-color: #1d143d25;
@@ -30,7 +30,6 @@ header>h1{
     margin-right: 30px;
     text-align: end;
     float: right;
-    
     font-weight: 500;
     font-family: 'Inter';
 }
@@ -150,12 +149,10 @@ header>h1>span{
     border-radius: 0px 10px 10px 0px;
     flex-flow: row nowrap;
     display: flex;
-    
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
-    min-width: 300px;
-    max-width: 400px;
+    width: 400px;
     height: 200px;
     background-color: var(--cor04);
 }
@@ -175,14 +172,15 @@ header>h1>span{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    width: 160px;
+    width: 200px;
     background-color: transparent;
 }
 #m5{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGJijIsSWt_SpMxwg7H6i9BMsDuh_Tte_NRQBuMQUxw&s=10);
 }
 #pro16{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_334jPOPO2LMol1rnky9TzBxcgjnHmsLeqyv_Az1GqA&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvrp-XTNE0UK5hvY1VqC7KAhohp5VFE659LC7DtivqUA&s=10);
+    width: 280px;
 }
 #dell16{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyq10ZWbILwpw28VEqVgKRsho5RlAZsjyrER31eLjClg&s=10);
@@ -191,18 +189,86 @@ header>h1>span{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbFVBsf3ah1ETw3Hdp2MurgYJ1lZtWSfsYAf7905YBdg&s);
 }
 #titan18{
+    width: 230px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNljTkfcKYSM1zGNSGgM-rWvEKxVnxpwh4I5b_k2cDeg&s=10);
+}
+#quiz{
+    background-color: #071A3D;
+    padding-bottom: 10px;
+}
+.faixa2{
+    font-weight: 500;
+    text-align: center;
+    color: var(--branco);
+    font-family: 'Inter';
+    padding: 5px;
+    background-color: var(--cor03);
+    font-size: 1.8em;
+}
+#quiz>h2{
+    font-size: 1.5em;
+    background-color: var(--cor02);
+    font-family: 'Montserrat';
+    padding-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.filtros{
+    color: #225e9e;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 3px solid #123A66;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    padding: 5px;
+    border-radius: 50vh;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.filtros:hover{
+    background-color: #123A66;
+    transition-duration: 0.5s;
+}
+#beneficios{
+    background-color: var(--cor01);
+}
+#beneficios>h2{
+    color: var(--cor01);
+    padding: 5px;
+    font-family: 'Montserrat';
+    text-align: center;
+    background-color: var(--cor04);
+}
+#textoDosBeneficios{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid var(--preto);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Nunito';
+    background-color: var(--cor01);
+    box-shadow: 5px 5px 0px var(--preto);
 }
 footer{
     padding-bottom: 10px;
     background-color: var(--preto);
 }
 footer>p{
+    
     padding-top: 10px;
 }
 footer>p, p>span, footer>a{
     margin: auto;
-    width: 300px;
+    width: 80vw;
     padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
@@ -274,3 +340,15 @@ footer>a{
     padding: 40px;
 }
 
+@media (max-width: 590px ) {
+    header{
+        background-position: bottom center;
+        background-image: url(ark/Header-pra-celular.png);
+    }
+    .cardDeitado{
+        width: 290px;
+    }
+    #m5{
+        width: 260px;
+    }
+}
